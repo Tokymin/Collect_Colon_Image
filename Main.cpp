@@ -1,9 +1,11 @@
-
 #include <opencv2/core/core.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
 #include<opencv2/highgui/highgui_c.h>
 #include <opencv2/highgui/highgui.hpp>
 #include <iostream>
+#include <opencv2/videoio.hpp>
+#include <opencv2/core/types_c.h> // To use CvScalar
+
 using namespace cv;
 using namespace std;
 
@@ -12,6 +14,13 @@ int main(int argc, char** argv)
 	//读取摄像头
 	Mat picture;
 	VideoCapture video(0);
+	video.set(CAP_PROP_FPS, 30);//帧数
+	video.set(CAP_PROP_BRIGHTNESS, 1);//亮度 1
+	video.set(CAP_PROP_CONTRAST, 40);//对比度 40
+	video.set(CAP_PROP_SATURATION, 50);//饱和度 50
+	video.set(CAP_PROP_HUE, 50);//色调 50
+	video.set(CAP_PROP_EXPOSURE, 50);//曝光 50
+	video.set(CAP_PROP_FOURCC, VideoWriter::fourcc('M', 'J', 'P', 'G'));
 	video.set(CAP_PROP_FRAME_WIDTH,1920);
 	video.set(CAP_PROP_FRAME_HEIGHT,1080);
 	int d = 8;
