@@ -12,6 +12,8 @@ int main(int argc, char** argv)
 	//∂¡»°…„œÒÕ∑
 	Mat picture;
 	VideoCapture video(0);
+	video.set(CAP_PROP_FRAME_WIDTH,1920);
+	video.set(CAP_PROP_FRAME_HEIGHT,1080);
 	int d = 8;
 	char ad[300] = { 0 };
 	char name;
