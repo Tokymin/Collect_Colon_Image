@@ -1,0 +1,9 @@
+﻿D:\jinwentao\app\VisualStudio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: 中间目录(x64\Release\)包含从另一个项目(Colon_Navigate.vcxproj, OPENCV_Test.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  Main.cpp
+D:\Toky\project\Collect_Colon_Image\Main.cpp(17,7): warning C4101: “name”: 未引用的局部变量
+  正在生成代码
+  1 of 110 functions ( 0.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  OPENCV_Test.vcxproj -> D:\Toky\project\Collect_Colon_Image\x64\Release\Collect_Colon_Image.exe

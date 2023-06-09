@@ -27,7 +27,7 @@ int main(int argc, char** argv)
 		sprintf_s(ad, "record\\%d.jpg", ++d);
 		imwrite(ad, picture);
 		cout << "get " << d << "  picture " << endl;
-		if (waitKey(10) == 27)    //按Esc键退出
+		if (waitKey(10) == 27)    //按Esc键，退出
 			break;
 		i = i + 1;
 	}

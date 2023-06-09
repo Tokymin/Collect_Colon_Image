@@ -1,0 +1,2 @@
+C:\Users\DELL\source\repos\OPENCV_Test\x64\Release\Colon_Navigate.exe
+D:\Toky\project\Collect_Colon_Image\x64\Release\Collect_Colon_Image.exe
