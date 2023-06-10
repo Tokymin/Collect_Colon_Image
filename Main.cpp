@@ -9,7 +9,7 @@
 using namespace cv;
 using namespace std;
 
-int main(int argc, char** argv)
+int mainMain(int argc, char** argv)
 {
 	//¶ÁÈ¡ÉãÏñÍ·
 	Mat picture;
